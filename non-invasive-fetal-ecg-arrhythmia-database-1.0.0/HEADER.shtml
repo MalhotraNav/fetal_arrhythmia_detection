@@ -1,0 +1,46 @@
+<!--#set var="TITLE" value="The Non-Invasive Fetal ECG Arrhythmia Database"-->
+<!--#set var="USELOCALCSS" value="1"-->
+<!--#include virtual="/head.shtml"-->
+
+<!--#set var="RELEASEDATE" value="19/02/2019"-->
+<!--#set var="VERSION" value="1.0"-->
+
+<!--#set var="CITATION" value="
+Behar JA, Bonnemains L, Shulgin V, Oster J, Ostras O, Lakhno I.
+<a href=https://obgyn.onlinelibrary.wiley.com/doi/full/10.1002/pd.5412 target=_blank>Noninvasive fetal electrocardiography for the detection of fetal arrhythmias</a>. Prenatal diagnosis. 2019 Jan 2.
+"-->
+
+<!--#include virtual="/pn/cite-box.shtml"-->
+
+
+<h2>Introduction</h2>
+
+<p>Fetal cardiac arrhythmias are defined as any irregular fetal cardiac rhythm or regular rhythm at a rate outside the reference range of 100 to 200 beat per minute (bpm). Arrhythmias are discovered in about 1% of fetuses with about 10% of these being considered potential sources of morbidity. Although most fetal arrhythmias are benign, some can cause fetal hydrops and lead to fetal death. This means that up to 1 fetus in 100 need their arrhythmias to be closely monitored and if indicated treated in-utero using antiarrhythmic therapy.</p>
+
+<p>The Non-Invasive Fetal ECG Arrhythmia Database (NIFEA DB) provides a series of fetal arrhythmias recordings (n=12) and a number of control normal rhythm recordings (n=14) performed using the non-invasive fetal electrocardiography (NI-FECG) technique.</p>
+
+<h2>Data Description</h2>
+
+<p>For each recording, a set of four or five abdominal channels and one chest maternal channel were recorded. The sampling frequency was 500 Hz or 1 kHz and is indicated in the header of each file.The detailed diagnosis information as well as gestational age of each fetus can be found in the publication. Recordings are named with the following convention:</p>
+<ul>
+  <li>ARR: arrhythmia fetus.</li>
+  <li>NR: normal rhythm fetus.</li>
+</ul>
+<p>The mention 'chest' corresponds to the single lead maternal chest ECG that was recorded. The mention 'abdominal' corresponds to the 4-5 raw abdominal channels that were recorded.</p>
+
+
+<h2>Contributors</h2>
+
+<p>This data was contributed by Joachim A. Behar, Laurent Bonnemains, Vyacheslav Shulgin, Julien Oster, Oleksii Ostras and Igor Lakhno.<p>
+
+<h2>Contact</h2>
+
+<p>
+  For further information, please contact:
+
+  <blockquote>
+    Name - Joachim Behar<br>
+    Technion – Israel Institute of Technology<br>
+    Email - joachim.a.behar@gmail.com
+  </blockquote>
+</p>
