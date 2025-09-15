@@ -33,7 +33,7 @@ Using the `NeuroKit2` package to isolate R-peaks and perform gradient detection 
 
 ## Time Domain Features  
 
-Time-domain features are calculated using the sampling frequency according to the **Nyquist Theorem**:  
+Time-domain features are calculated using the sampling frequency according to the `Nyquist Theorem`:  
 
 $$
 P_\text{seconds} = \frac{x_{\text{sample}}}{f_\text{sample}}
