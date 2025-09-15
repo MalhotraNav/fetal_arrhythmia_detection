@@ -9,10 +9,6 @@ This project evaluates the efficacy of Non-Invasive Fetal Electrocardiogram (NI-
 <img width="860" height="483" alt="image" src="https://github.com/user-attachments/assets/041bcdf4-21f6-40dc-ae66-ab24d4bced38" />
 
 
-Signal Processing --> Feature Extraction + Dimensionality Reduction --> Classification + Hyperparameter Tuning
-
-
-
 **Signal Processing:**
 
 [INSERT IMAGES OF BEFORE AND AFTER PROCESSING]
@@ -21,15 +17,12 @@ Signal Processing --> Feature Extraction + Dimensionality Reduction --> Classifi
 
 **Feature Extraction:**
 
-Using the `NeuroKit2` package to isolate R-peaks:
+Using the `NeuroKit2` package to isolate R-peaks and perform gradient detection for the remaning peaks:
 
-[INSERT CODE IMAGE HERE]
+<img width="394" height="304" alt="image" src="https://github.com/user-attachments/assets/7b1a4f12-a3cf-4427-aa72-fc57926ba686" />
 
-Performing gradient detection provides the remaining ECG peaks: 
-
-[INSERT IMAGE OF PEAKS HERE] 
-
-Finally, time domain features are calculated using the sampling frequency according to `Nyquist Theorem.` The features are also plotted split by group (arrythmiac & healthy). 
+Finally, time domain features are calculated using the sampling frequency according to `Nyquist Theorem.` <br/>
+The features are also plotted by group (arrythmiac & healthy). 
 
 [INSERT MATH OF FREQUENCY DOMAIN] [INSERT BOXPLOTS]
 
