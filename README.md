@@ -66,4 +66,4 @@ The features are also plotted by group (**arrhythmic & healthy**):
 | GNB       | 0.66         | 0.66       | 0.66          | 0.66        | 0.34            |
 | **SVM**   | **0.83**     | **0.83**   | **0.88**      | **0.83**    | **0.17**        |
 
-<p align="center"><em>Table: Performance comparison of classification models after hyperparameter tuning.</em></p>
+<p <em>Table: Performance comparison of classification models after hyperparameter tuning.</em></p>
