@@ -56,4 +56,13 @@ The features are also plotted by group (**arrhythmic & healthy**):
 
 ## Final Performance Metrics  
 
-<img width="442" height="205" alt="image" src="https://github.com/user-attachments/assets/f7236262-56a8-489b-a1fd-9612186e0370" />  
+| **Model** | **Accuracy** | **Recall** | **Precision** | **F-score** | **Brier-Score** |
+|-----------|--------------|------------|---------------|-------------|-----------------|
+| LR        | 0.66         | 0.66       | 0.80          | 0.63        | 0.34            |
+| **LDA**   | **0.83**     | **0.83**   | **0.88**      | **0.83**    | **0.17**        |
+| KNN       | 0.66         | 0.66       | 0.80          | 0.63        | 0.34            |
+| DT        | 0.50         | 0.50       | 0.50          | 0.49        | 0.50            |
+| GNB       | 0.66         | 0.66       | 0.66          | 0.66        | 0.34            |
+| **SVM**   | **0.83**     | **0.83**   | **0.88**      | **0.83**    | **0.17**        |
+
+<p align="center"><em>Table: Performance comparison of classification models.</em></p>
