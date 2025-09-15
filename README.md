@@ -1,6 +1,6 @@
 # Classification of Fetal Arrythmia using Electrocardiogram Signal Processing and Machine Learning
 
-This project evaluates the efficacy of Non-Invasive Fetal Electrocardiogram (NI-fECG) in detecting fetal cardiac arrhythmia via ML tools as an alternative to conventional invasive, expensive, risky, and manual diagnostic methods
+This project evaluates the efficacy of Non-Invasive Fetal Electrocardiogram (NI-fECG) in detecting fetal cardiac arrhythmia via ML tools as an alternative to conventional invasive, expensive, risky, and manual diagnostic methods 
 
 
 **System Architecture:**
@@ -21,7 +21,10 @@ Using the `NeuroKit2` package to isolate R-peaks and perform gradient detection 
 
 Finally, time domain features are calculated using the sampling frequency according to `Nyquist Theorem.` <br/>
 
-[INSERT MATH OF FREQUENCY DOMAIN]
+$$
+\bar{P}_{\text{interval}} = \frac{1}{N}\sum_{i=0}^{N}(P_{i+1} - P_i) \quad \text{where} \quad 
+P_\text{seconds} = \frac{x_{\text{sample}}}{f_\text{sample}}
+$$
 
 The features are also plotted by group (arrythmiac & healthy). 
 
