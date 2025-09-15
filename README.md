@@ -4,14 +4,33 @@ This project evaluates the efficacy of Non-Invasive Fetal Electrocardiogram (NI-
 
 **System Architecture:**
 
-[INSERT IMAGE HERE] 
+<img width="860" height="483" alt="image" src="https://github.com/user-attachments/assets/041bcdf4-21f6-40dc-ae66-ab24d4bced38" />
+
+Signal Processing --> Feature Extraction + Dimensionality Reduction --> Classification + Hyperparameter Tuning
+
+**Signal Processing:**
+
+[INSERT IMAGES OF BEFORE AND AFTER PROCESSING]
+
+**Feature Extraction:**
+
+Using the `NeuroKit2` package to isolate R-peaks:
+
+[INSERT CODE IMAGE HERE]
+
+Performing gradient detection provides the remaining ECG peaks: 
+
+[INSERT IMAGE OF PEAKS HERE] 
+
+Finally, time domain features are calculated using the sampling frequency according to `Nyquist Theorem.` The features are also plotted split by group (arrythmiac & healthy). 
+
+[INSERT MATH OF FREQUENCY DOMAIN] [INSERT BOXPLOTS]
+
+**FINAL PERFORMANCE METRICS**
+
+<img width="442" height="205" alt="image" src="https://github.com/user-attachments/assets/f7236262-56a8-489b-a1fd-9612186e0370" />
 
 
-`this will look gray`
-<span class="text-muted">Your gray text here</span>
-<span style="color: #6a737d;">Your gray text here</span>
 
-'Signal preprocessing with maternal ECG cancellation and noise filtering'
-Extraction of 15 time-domain and frequency-domain features
-PCA dimensionality reduction and 6-algorithm ML comparison
-Best performance: 83% accuracy with LDA/SVM models
+
+
