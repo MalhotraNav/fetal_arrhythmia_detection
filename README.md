@@ -55,7 +55,7 @@ The features are also plotted by group (**arrhythmic & healthy**):
 
 ---
 
-## Final Performance Metrics  
+<div align="center">
 
 | **Model** | **Accuracy** | **Recall** | **Precision** | **F-score** | **Brier-Score** |
 |-----------|--------------|------------|---------------|-------------|-----------------|
@@ -66,6 +66,9 @@ The features are also plotted by group (**arrhythmic & healthy**):
 | GNB       | 0.66         | 0.66       | 0.66          | 0.66        | 0.34            |
 | **SVM**   | **0.83**     | **0.83**   | **0.88**      | **0.83**    | **0.17**        |
 
-<p <em>Table: Performance comparison of classification models after hyperparameter tuning.</em></p>
+<br/>
+<em>Table: Performance comparison of classification models after hyperparameter tuning.</em>  
+
+</div>
 
 The machine learning models performed suboptimally for fetal arrhythmia detection from non-invasive ECG recordings, with only LDA and SVM achieving acceptable 83% accuracy while other models struggled significantly, indicating that more sophisticated signal preprocessing and noise reduction techniques are necessaary for ML based analysis of NI-fECG in clinical settings.
