@@ -71,4 +71,5 @@ The features are also plotted by group (**arrhythmic & healthy**):
 
 </div>
 
+<br/><br/>
 The machine learning models performed suboptimally for fetal arrhythmia detection from non-invasive ECG recordings, with only LDA and SVM achieving acceptable 83% accuracy while other models struggled significantly, indicating that more sophisticated signal preprocessing and noise reduction techniques are necessaary for ML based analysis of NI-fECG in clinical settings.
