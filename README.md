@@ -9,7 +9,7 @@ This project evaluates the efficacy of Non-Invasive Fetal Electrocardiogram (NI-
 
 **Signal Processing:**
 
-<img width="570" height="171" alt="image" src="https://github.com/user-attachments/assets/7d674c78-e372-42ef-ad80-d0bf268d0f6e" />
+<img width="798" height="240" alt="image" src="https://github.com/user-attachments/assets/7d674c78-e372-42ef-ad80-d0bf268d0f6e" />
 
 **Feature Extraction:**
 
