@@ -24,6 +24,7 @@ Using the `NeuroKit2` package to isolate R-peaks and perform gradient detection 
 
 <img width="810" height="128" alt="image" src="https://github.com/user-attachments/assets/3bc3300f-3211-4608-98ee-3ca8bbbf462f" />  
 
+<br/>
 <br/>  
 
 <img width="591" height="456" alt="image" src="https://github.com/user-attachments/assets/7b1a4f12-a3cf-4427-aa72-fc57926ba686" />  
