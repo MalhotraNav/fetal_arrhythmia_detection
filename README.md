@@ -2,6 +2,7 @@
 
 This project evaluates the efficacy of Non-Invasive Fetal Electrocardiogram (NI-fECG) in detecting fetal cardiac arrhythmia via ML tools as an alternative to conventional invasive, expensive, risky, and manual diagnostic methods.  
 
+(note: this codebase does NOT show the exact code for the paper nor does it include final model architecture and tuning)
 ---
 
 ## System Architecture  
